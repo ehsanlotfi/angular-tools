@@ -14,3 +14,11 @@
 - [ng2-validation](https://www.npmjs.com/package/ng2-validation)
 - [ng2-tooltip-directive](https://www.npmjs.com/package/ng2-tooltip-directive)
 - [bootstrap](https://www.npmjs.com/package/bootstrap)
+- [fontawesome](https://www.npmjs.com/package/@fortawesome/fontawesome-free)
+- [file-saver](https://www.npmjs.com/package/file-saver)
+- [xlsx](https://www.npmjs.com/package/xlsx)
+
+- [vis-network](https://www.npmjs.com/package/vis-network)
+- [jointjs](https://www.npmjs.com/package/jointjs)
+- [d3](https://www.npmjs.com/package/d3)
+- [highcharts](https://www.npmjs.com/package/highcharts)
