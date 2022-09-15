@@ -17,8 +17,8 @@
 - [fontawesome](https://www.npmjs.com/package/@fortawesome/fontawesome-free)
 - [file-saver](https://www.npmjs.com/package/file-saver)
 - [xlsx](https://www.npmjs.com/package/xlsx)
-
 - [vis-network](https://www.npmjs.com/package/vis-network)
 - [jointjs](https://www.npmjs.com/package/jointjs)
 - [d3](https://www.npmjs.com/package/d3)
 - [highcharts](https://www.npmjs.com/package/highcharts)
+- [ngx-quill](https://www.npmjs.com/package/ngx-quill)
