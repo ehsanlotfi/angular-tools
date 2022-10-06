@@ -22,3 +22,4 @@
 - [d3](https://www.npmjs.com/package/d3)
 - [highcharts](https://www.npmjs.com/package/highcharts)
 - [ngx-quill](https://www.npmjs.com/package/ngx-quill)
+- [angular-confirmation-popover](https://www.npmjs.com/package/angular-confirmation-popover)
