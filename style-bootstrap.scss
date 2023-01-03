@@ -22,3 +22,23 @@
   justify-content: center;
   align-items: center;
 }
+
+mwl-confirmation-popover-window {
+    .popover-arrow,
+    p {
+        display: none !important;
+    }
+    .popover-content.popover-body {
+        padding: 0.1rem !important;
+    }
+    .popover-title.popover-header {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    button {
+        padding: 0.1rem 0.3rem !important;
+        margin: 0.5rem !important;
+        min-width: 3rem;
+        font-size: 0.9rem;
+    }
+}
