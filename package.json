@@ -1,0 +1,9 @@
+{
+  "name": "thinktank",
+  "version": "0.0.30",
+ "scripts": {
+    "docker:build": "docker build -t registry.kube.io/thinktank/thinktank:%npm_package_version% .",
+    "docker:push": "docker push registry.kube.io/thinktank/thinktank:%npm_package_version%",
+    "deploy": "npm version patch && npm run build && npm run docker:build && npm run docker:push"
+}
+}
