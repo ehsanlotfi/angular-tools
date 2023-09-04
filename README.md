@@ -23,3 +23,4 @@
 - [highcharts](https://www.npmjs.com/package/highcharts)
 - [ngx-quill](https://www.npmjs.com/package/ngx-quill)
 - [angular-confirmation-popover](https://www.npmjs.com/package/angular-confirmation-popover)
+- [ng-skeleton-loading](https://www.npmjs.com/package/ng-skeleton-loading)
