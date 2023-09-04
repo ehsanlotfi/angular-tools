@@ -1,7 +1,10 @@
 {
-  "name": "thinktank",
+  "name": "test",
   "version": "0.0.30",
  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --ssl --port 5001 --o",
+    "build": "ng build",
     "docker:build": "docker build -t registry.kube.io/test/test:%npm_package_version% .",
     "docker:push": "docker push registry.kube.io/test/test:%npm_package_version%",
     "print:version": "echo registry.kube.io/test/test:%npm_package_version%",
