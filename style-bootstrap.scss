@@ -42,3 +42,23 @@ mwl-confirmation-popover-window {
         font-size: 0.9rem;
     }
 }
+
+.deactive {
+  user-select: none;
+  opacity: 0.5;
+  position: relative;
+  cursor: not-allowed;
+
+  &::after {
+    content: " ";
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  * {
+    user-select: none;
+  }
+}
