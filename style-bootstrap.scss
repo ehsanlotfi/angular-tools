@@ -1,3 +1,19 @@
+@function calculatePercentage($value) {
+  @return $value * 1%;
+}
+
+@for $i from 1 through 100 {
+  $percentage: calculatePercentage($i);
+
+  .w-#{$i} {
+    width: $percentage !important;
+  }
+
+  .h-#{$i} {
+    height: $percentage !important;
+  }
+}
+
 .rtl {
   direction: rtl;
   text-align: start;
