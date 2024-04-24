@@ -39,6 +39,13 @@
   align-items: center;
 }
 
+.d-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+
 mwl-confirmation-popover-window {
     .popover-arrow,
     p {
