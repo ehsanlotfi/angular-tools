@@ -1,16 +1,24 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import * as moment from 'jalali-moment';
 
-@Pipe({
-  name: 'jalali'
-})
-export class JalaliPipe implements PipeTransform {
-  transform(value: any, format?: string, args?: any): any {
+@Pipe({ name: 'jalali', standalone: true })
+export class JalaliPipe implements PipeTransform
+{
+    transform(value: string): string
+    {
+        const date = new Date(value);
+        if (isNaN(date.getTime()))
+        {
+            return 'Invalid Date';
+        }
 
-    if (!value) return value;
-    if (value.length < 9) return value;
-    if (!moment(value).isValid()) return value;
-    return moment.from(value, 'en', 'YYYY-MM-DDTHH:mm:ss').locale('fa').format(format ? format : 'YYYY/MM/DD HH:MM')
-    
-  }
+        return date.toLocaleString('fa-IR-u-nu-latn', {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+        });
+
+    }
 }
