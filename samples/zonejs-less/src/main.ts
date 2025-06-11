@@ -10,10 +10,10 @@ const tasksSignal = signal<{ id: number; title: string; done: boolean }[]>([]);
   selector: 'app-login',
   imports: [RouterModule],
   template: `
-    <form (ngSubmit)="login()">
+    <form>
       <input #userRef [value]="user()" (input)="user.set(userRef.value)" name="username" placeholder="Username" required>
       <input #passRef [value]="pass()" (input)="pass.set(passRef.value)" name="password" type="password" placeholder="Password" required>
-      <button>Login</button>
+      <button (click)="login()">Login</button>
     </form>
     @if(error()) {  <p style="color:red">Error happend !</p> }
   `,
